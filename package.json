@@ -21,6 +21,7 @@
   "homepage": "https://github.com/toxic-programmer-cell/Node-Js#readme",
   "description": "",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^5.2.1",
     "lodash": "^4.17.21"
   }
