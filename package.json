@@ -1,13 +1,13 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "app.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/toxic-programmer-cell/Node-Js#readme",
   "description": "",
   "dependencies": {
+    "express": "^5.2.1",
     "lodash": "^4.17.21"
   }
 }
